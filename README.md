@@ -394,4 +394,21 @@ x2 = -1.000000
 
 ```
 
-На этом всё! Спасибо за внимание!
+## Build and test
+
+```bash
+$ cd ..
+$ git clone https://github.com/from1k/Homework3.git
+$ cd test
+$ mkdir build
+$ cd build
+$ cmake ..
+$ cmake --build .
+```
+
+## Run
+
+```bash
+./hello_world_application/hello_world
+./solver_application/solver_app
+```
